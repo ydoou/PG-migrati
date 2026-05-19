@@ -1,0 +1,27 @@
+{
+  "name": "migrati",
+  "version": "1.0.0",
+  "description": "PostgreSQL database migration tool — copy schema and data from one instance to another via a clean web UI",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "postgresql",
+    "postgres",
+    "migration",
+    "database",
+    "copy",
+    "pg"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.13.0",
+    "pg-copy-streams": "^6.0.6"
+  }
+}
